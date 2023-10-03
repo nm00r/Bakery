@@ -1,0 +1,227 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+hr{
+  max-width: 200;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+}
+h5{
+  padding: 20px;
+  font-size: 20px;
+  color: #fff;
+}
+  .home{
+    background-image: url(../images/drew-coffman-1872.jpg);
+    background-size: cover;
+    background-position: center center;
+    min-height: 100vh;
+  }
+
+  .navbar img{
+    width: 200px;
+    float: left;
+    padding: 30px;
+  }
+  .logo .links{
+     width: 50%;
+     float: left;
+
+  }
+  .navbar ul{
+    list-style: none;
+    float: right;
+    padding: 30px;
+  }
+  .navbar ul li{
+    float: left;
+    font-size: 20px;
+    padding: 20px;
+    color: white;
+    padding: 30px;
+  }
+  .countiner{
+    width: 100%;
+    /* margin: auto; */
+  }
+  .clear{
+    clear: both;
+  }
+  .contant{
+    text-align: center;
+    color: white;
+    margin-top: 100px;
+  }
+  .contant h1{
+    padding: 20px 0;
+    font-size: 40px;
+  }
+  .contant .des_home{
+    padding-bottom: 10px 0;
+    max-width: 600px;
+    margin: auto;
+  }
+  .contant p{
+      font-size: 20px;
+  }
+  .contant .btn{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+  }
+  .contant .learn-more{
+    background-color: #8e7754;
+    border: 2px solid #8e7754;
+  }
+  .contant .contact-us{
+    background-color: transparent;
+    border: 2px solid white;
+  }
+  .about{
+    margin: 100px 0;
+      
+  }
+  .about-contant h2{
+    padding: 40px;
+    font-size: 40px;
+  }
+  .about .about-img, .about .about-contant{
+    width: 49%;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .about .about-img img{
+    width: 80%;
+    padding-left: 80px;
+  }
+  .about-icons img{
+    padding: 2px;
+  }
+  .about-icons img, .about-icons p{
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .about-contant .des-about{
+    line-height: 30px;
+    padding-bottom: 20px;
+  }
+  .location{
+    margin: 100px 0;
+    background-color: #f8f8f8;
+    
+  }
+  .location .location-content, .location .location-img{
+    width: 49%;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .location .location-img img{
+    width: 90%;
+    margin: 20px;
+  }
+  .location-content .loc-des{
+    line-height: 30px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    font-size: 20px;
+    color: rgb(50, 83, 83);
+  
+  }
+  .location-content h2{
+    padding: 40px;
+    padding-left: 60px;
+    font-size: 40px;
+  }
+  .gallery{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+   
+  }
+  .gallery .gallery-img{
+    width: 33%;
+    text-align: center;
+    display: inline-block;
+  }
+  .gallery .gallery-img img{
+    width: 90%;
+    padding: 10px;
+  }
+  .gallery .gallery-dec{
+    padding: 50px;
+  }
+  .gallery .gallery-dec h2{
+    padding: 40px;
+    padding-left: 60px;
+    font-size: 30px;
+  }
+  .gallery .gallery-img h3{
+    font-size: 20px;
+    padding: 30px;
+    padding-left: 60px;
+  }
+  .gallery .gallery-img p{
+    color: #686868;
+    font-size: 20px;
+    padding: 20px;
+  }
+  .contact{
+    margin: 100px 0;
+    background-color: #f8f8f8;
+  }
+  .contact .contact-map, .contact .contact-des{
+    width: 49%;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .contact .contact-map img{
+    width: 90%;
+    margin: 20px;
+  }
+  .contact .contact-des{
+    line-height: 30px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    font-size: 20px;
+    size: 30px;
+  }
+  .contact .contact-des h2{
+    padding: 40px;
+    padding-left: 60px;
+    font-size: 30px;
+  }
+  .contact .contact-des p{
+    width: 33%;
+    font-size: 20px;
+    padding: 10px;
+  }
+  .contact .contact-icons{
+   padding: 10px;
+  }
+  .informaion{
+    background-color: #403d38;
+  }
+  .informaion .infor-dec , .informaion .infor-spicail{
+    width: 25%;
+    text-align: center;
+    float: left;
+  }
+  .informaion .infor-dec p{
+    padding: 40px;
+    color: #969696;
+  }
+  .informaion .infor-spicail p{
+    padding: 20px;
+    color: #969696;
+  }
+  .footer{
+    background-color: #645b4c;
+    text-align: center;
+  }
